@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <ul class="topnav">
+        <li><a href="project.html">Home</a></li>
+        <li ><a href="about.html">About</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <img id ="logo" src="logo.jpeg" alt="logo">
+        </ul>
+    <center><h1>Contact Us</h1></center>
+
+    <div class="contact-info">
+        <div class="info">
+            <h2>Company Information</h2>
+            <p><strong>Name:</strong> Pickle Nation</p>
+            <p><strong>Address:</strong> 1234 Your St, City, State, ZIP</p>
+            <p><strong>Email:</strong> contact@yourcompany.com</p>
+            <p><strong>Phone:</strong>+91 1234567890</p>
+
+            </div>
+
+        <div class="info">
+        <h2>Packing Facility</h2>
+        <p><strong>Name:</strong>Pickle Nation</p>
+        <p><strong>Address:</strong> 1234 Your St, City, State, ZIP</p>
+        <p><strong>Email:</strong> contact@yourcompany.com</p>
+        <p><strong>Phone:</strong>+91 1234567890</p>
+        </div>
+
+        <div class="info">
+            <h2>Working Hours</h2>
+
+            <p>Monday to Friday</p>
+            <p>9:00 AM to 5:00PM </p>
+            </div>
+
+        
+    </div>
+<div class="bottom">
+    <div class="suggestion-form">
+        <h2>Send Us Your Suggestions</h2>
+        <form action="/submit-suggestion" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="suggestion">Suggestion:</label>
+            <textarea id="suggestion" name="suggestion" rows="5" required></textarea><br>
+
+            <input type="submit" value="Submit Suggestion">
+        </form>
+    </div>
+    <div class="map">
+        <h2>Locate us on Map</h2>
+        <img src="/Screenshot_17-10-2024_153848_www.bing.com.jpeg" width="630px" height="500px" class="map1"><br>
+        <button onclick="window.location.href='https://www.bing.com/maps?q=lpu+location&FORM=HDRSC6&cp=31.287637%7E75.679205&lvl=13.5'"class="button1">Locate Us</button>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2024 Pickel Nation</p>
+</footer>
+</body>
+</html>

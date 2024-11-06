@@ -1,0 +1,119 @@
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  ul.topnav li a:hover {
+    background-color: green
+}
+
+  #logo{
+    width: 150px;
+    height: 150px;
+    float: right;
+ }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+h1 {
+    color: #333;
+}
+
+.contact-info{
+    display: flex;
+
+}
+
+
+.info{
+    width: 30%;
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+}
+.suggestion-form {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 15px;
+    width: 45%;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+.bottom{
+    display: flex;
+}
+
+.map{
+    background-color: #fff;
+    margin: 15px;
+    width: 50%;
+    padding: 10px;
+    
+}
+.map1{
+    padding: 1px;
+    border: solid 2px black;
+}
+
+.button1{
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button1:hover{
+    background-color: #4cae4c;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
