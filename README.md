@@ -1,0 +1,1 @@
+Pickel is a fresh, engaging website dedicated to everything pickles! From culinary delights and recipes to unique pickle-inspired products and fun pickle facts, Pickel is the ultimate hub for pickle enthusiasts. Here’s what you’ll find:
